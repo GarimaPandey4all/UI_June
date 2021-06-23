@@ -1,0 +1,21 @@
+UI - Modern Web development
+
+- HTML(Hyper Text Markup Language) 4 - Structure of the webpage
+
+Brain Mentors
+<> - angular brackets
+
+<p></p>
+void func()
+{
+
+}
+
+Emmet
+- It is used to suport fast programming
+- HTML and CSS
+
+
+
+
+- CSS 2 - Design / Style
