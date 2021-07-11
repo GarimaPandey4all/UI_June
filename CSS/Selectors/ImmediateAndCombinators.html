@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Immediate and Combinators
+        </title>
+
+        <style>
+            /*h2 {
+                color: darkgreen;
+            }*/
+            /*#parent h2{
+                color: darkmagenta;
+            }*/
+            #parent > h2 {
+                color: darkolivegreen;
+            }
+            /* immediate child selector */
+            .child > h2 {
+                color: darkorchid;
+            }
+            /* Combinator Selector */
+            #parent ~ h2 {
+                color: deeppink;
+            }
+
+            /* Immediate Sibling Selector */
+            #parent + h2 {
+                color: gold;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <h1>Immediate and Combinators</h1>
+
+        <!-- create a section -->
+        <!-- div: block level element -->
+        <div id="parent">
+            <h2>This is a heading</h2>
+            <div class="child">
+                <h2>This is a heading</h2>
+                <div class="grandchild">
+                    <h2>This is a heading</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- <br><br> -->
+
+        <h2>This is a heading outside</h2>
+        <h2>This is a heading outside</h2>
+
+    </body>
+</html>
