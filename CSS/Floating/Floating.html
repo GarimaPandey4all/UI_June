@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Floating 
+        </title>
+
+        <style>
+
+            /* Pseudo Elements
+            After and Before */
+
+            #parent::after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+
+            /* #parent {
+                height: 280px;
+            } */
+
+            .col-1 {
+                float: left;
+                width: 30%;
+                background-color: cornflowerblue;
+            }
+
+            .col-2 {
+                float: right;
+                width: 30%;
+                background-color: darkcyan;
+            }
+
+            .div_1 {
+                background-color: darkgoldenrod;
+            }
+
+            /* .clear {
+                clear: both;
+            } */
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>Floating</h1>
+
+        <div id="parent">
+            <div class="col-1">
+                <h2>This is a column - 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolore soluta in ad illo ea debitis excepturi vero? Nisi ipsa recusandae beatae assumenda, eius eos facilis in repellendus? Repellendus, porro! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut repudiandae sapiente provident cum magnam optio, amet mollitia voluptas illum saepe quisquam hic dolorem recusandae adipisci natus a, temporibus, minus explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut odio eius iusto recusandae id amet explicabo voluptate. Earum debitis dolores natus placeat atque est soluta animi et magni maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci veniam quae ipsa, fugiat odit dicta corporis, harum quod placeat quis alias tempora natus, numquam facere dolorem quos maiores distinctio hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequatur iure molestiae omnis delectus mollitia optio non possimus quos maiores voluptate praesentium debitis, sapiente explicabo quas dolores officiis doloribus aut!
+                </p>
+            </div>
+    
+            <div class="col-2">
+                <h2>This is a column - 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolore soluta in ad illo ea debitis excepturi vero? Nisi ipsa recusandae beatae assumenda, eius eos facilis in repellendus? Repellendus, porro! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut repudiandae sapiente provident cum magnam optio, amet mollitia voluptas illum saepe quisquam hic dolorem recusandae adipisci natus a, temporibus, minus explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut odio eius iusto recusandae id amet explicabo voluptate. Earum debitis dolores natus placeat atque est soluta animi et magni maxime. 
+                </p>
+            </div>
+
+            <!-- <div class="clear">
+
+            </div> -->
+
+        </div>
+
+        <div class="div_1">
+            <h2>This is a heading</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos quidem necessitatibus unde consequatur eveniet impedit soluta quo, iure facere eos blanditiis dolorem veritatis consequuntur aliquam. Quibusdam voluptatem veritatis quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum saepe accusantium quia deleniti voluptates quaerat tenetur, minus doloremque tempora ipsa iure amet consequatur mollitia id doloribus officiis voluptas libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, totam, et ut eligendi rem ipsam deleniti labore fugit sequi eius unde iure libero eveniet, itaque maiores molestias illum praesentium minima?
+            </p>
+        </div>
+
+    </body>
+
+</html>
