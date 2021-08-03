@@ -1,0 +1,18 @@
+HTML5:
+
+Semantic/New Tags
+Form New types
+Multimedia
+audio, video
+
+VS code:
+
+shortcut of default code generate: shift + ! + Enter
+
+<!DOCTYPE html>: Document type of html5
+
+lang="en" : language = "English"
+
+charset="UTF-8": Character Set = "Universal Text Format - 8 bits"
+
+url: uniform resource loccator
