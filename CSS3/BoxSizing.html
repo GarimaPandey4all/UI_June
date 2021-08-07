@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+            /* Chrome, Safari and Microsoft Edge */
+            -webkit-box-sizing: border-box;
+            /* Mozilla Firefox */
+            -moz-box-sizing: border-box;
+            /* Microsoft IE */
+            -ms-box-sizing: border-box;
+            /* Opera */
+            -moz-box-sizing: border-box;
+        }
+
+        div {
+            width: 400px;
+            height: 400px;
+            border: 2px solid red;
+            padding: 12px;
+            /* box-sizing: border-box; */
+        }
+
+        /* Firefox Specific CSS */
+        @-moz-document url-prefix() {
+            h1 {
+                color: red;
+                background-color: aquamarine;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+        <h1>Box Sizing</h1>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda molestias error voluptatibus natus laborum sed distinctio obcaecati beatae, temporibus illum quaerat itaque aperiam, esse dicta, quasi labore nobis ducimus eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit mollitia ipsum maxime fugiat, dicta voluptates quae eum eligendi vitae beatae dolore neque. Quos quasi expedita laborum eum? Ducimus, dolore?
+        </div>
+
+</body>
+</html>
