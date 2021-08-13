@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            background-image: url("https://wallpapercave.com/wp/wp2599594.jpg");
+            height: 650px;
+            border: 2px solid red;
+            background-size: 100% 100%;
+            animation: movable 100s infinite linear;
+            /* overflow: hidden; */
+        }
+
+        @keyframes movable {
+            /* 0% {
+                background-size: 200% 200%;
+            }
+            100% {
+                background-size: 100% 100%;
+            } */
+            0% {
+                transform: scale(2, 2);
+            }
+            100% {
+                transform: scale(1, 1);
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+
+    </div>
+    
+</body>
+</html>
