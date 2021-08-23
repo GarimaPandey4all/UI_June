@@ -1,0 +1,144 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: crimson;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* cursor: pointer */
+
+.menu-btn {
+    position: absolute;
+    top: 36px;
+    right: 41px;
+    background-color: transparent;
+    border: none;
+    pointer-events: none;
+    display: none;
+}
+
+.menu-btn .line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 4px;
+    background-color: lightcoral;
+}
+
+input[value="toggle-menu"] {
+    position: absolute;
+    top: 36px;
+    right: 43px;
+    height: 15px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (min-width:768px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .menu-btn {
+        display: block;
+    }
+    input[value="toggle-menu"]
+    {
+        display: block;
+        opacity: 0;
+    }
+    #main-nav ul {
+        position: absolute;
+        display: block;
+        top: 65px;
+        left: 0px;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translate(0%, -150%);
+        transition: 2s;
+    }
+
+    ul li {
+        padding: 10px;
+        margin: 0;
+    }
+
+    ul li a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #main-nav input[value="toggle-menu"]:checked ~ ul {
+        transform: translate(0%, 0%);
+    }
+}
+
+
+#parent {
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start ; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+}
+
+.column {
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    margin: 0px 10px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.col-1 {
+    width: 20%;
+    align-self: center;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    align-self: flex-end;
+    width: 20%;
+}
