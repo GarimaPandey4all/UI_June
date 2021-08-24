@@ -48,6 +48,7 @@ ul li a {
     height: 3px;
     margin-bottom: 4px;
     background-color: lightcoral;
+    transition: 2s;
 }
 
 input[value="toggle-menu"] {
@@ -101,6 +102,24 @@ input[value="toggle-menu"] {
     #main-nav input[value="toggle-menu"]:checked ~ ul {
         transform: translate(0%, 0%);
     }
+
+    #main-nav input[value="toggle-menu"]:checked ~ .menu-btn .line:nth-child(2)
+    {
+        opacity: 0;
+    }
+
+    #main-nav input[value="toggle-menu"]:checked ~ .menu-btn .line:first-child
+    {
+        transform: rotate(45deg);
+    }
+
+    #main-nav input[value="toggle-menu"]:checked ~ .menu-btn .line:last-child
+    {
+        transform: rotate(-45deg);
+        margin-top: -13px;
+    }
+
+
 }
 
 
@@ -141,4 +160,15 @@ img {
 .col-3 {
     align-self: flex-end;
     width: 20%;
+}
+
+@media (max-width: 768px) {
+    #parent {
+        display: block;
+    }
+
+    .column {
+        width: 100%;
+        margin: 10px 0px;
+    }
 }
