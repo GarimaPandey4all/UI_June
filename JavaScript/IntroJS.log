@@ -1,0 +1,68 @@
+a = 10
+10
+a
+10
+b = 20
+20
+b
+20
+a + b
+30
+a - b
+-10
+a * b
+200
+a / b
+0.5
+typeof(a)
+'number'
+typeof(b)
+'number'
+c = 6.7
+6.7
+typeof(c)
+'number'
+d = 'hello'
+'hello'
+typeof(d)
+'string'
+typeof(e)
+'undefined'
+a = '10'
+'10'
+typeof(a)
+'string'
+a + b
+'1020'
+b + a
+'2010'
+a - b
+-10
+a / b
+0.5
+a * b
+200
+b + c + a
+'26.710'
+a
+'10'
+d = 10
+10
+d
+10
+a == d
+true
+a === d
+false
+arr = [12, 45, 6, 8, 9, 10]
+(6) [12, 45, 6, 8, 9, 10]
+arr
+(6) [12, 45, 6, 8, 9, 10]0: 121: 452: 63: 84: 95: 10length: 6[[Prototype]]: Array(0)
+typeof(arr)
+'object'
+arr[2]
+6
+Array instanceof Object
+true
+arr instanceof Array
+true

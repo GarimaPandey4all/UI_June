@@ -1,0 +1,16 @@
+Javascript - JS
+
+Client Side Dynamic Scripting Language
+
+Netscape
+- Nexus - Static
+- Mosaic - JS - V8 Engine
+
+ECMAScript
+
+JS Features:
+
+Dynamically
+No data types
+Loosely Types/Weekly Typed
+Interpreted
